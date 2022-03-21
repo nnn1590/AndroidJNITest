@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.nnn1590.jnitest">
+
+    <uses-sdk tools:overrideLibrary="androidx.test.ext.junit, androidx.test.espresso.core, androidx.test.core,
+        androidx.test.runner, androidx.test.services.storage, androidx.test.monitor, androidx.test.espresso.idling.resource" android:minSdkVersion="1" />
+
+</manifest>
