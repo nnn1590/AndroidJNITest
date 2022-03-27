@@ -38,7 +38,7 @@ int main(int argc, char** argv) {
   argv[argc - 1] = NULL;  // The last argv must be a NULL ptr.
 
   // Set also the proc name accordingly (/proc/PID/comm).
-  prctl(PR_SET_NAME, (long) argv[0], 0UL, 0UL, 0UL);
+  prctl(PR_SET_NAME, (unsigned long) argv[0], 0UL, 0UL, 0UL);
 
   // dlopen should not fail, unless:
   // - The target binary does not exists:
