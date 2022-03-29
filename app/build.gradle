@@ -28,6 +28,10 @@ android {
     }
 }
 
+tasks.all {
+    task -> if (task.name.endsWith('Ndk') || task.name.startsWith('externalNativeBuild')) task.enabled = false;
+}
+
 dependencies {
 
     testCompile 'junit:junit:4.13.2'

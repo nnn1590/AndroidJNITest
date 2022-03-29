@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">JNI Test</string>
+    <string name="app_name" translatable="false">JNI Test</string>
+    <string name="error">Error</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="help">Help</string>
+    <string name="info">Info</string>
+    <string name="warning">Warning</string>
+    <string name="question">Question</string>
+    <string name="debug">Debug</string>
+    <string name="release">Release</string>
+    <string name="failed_to_load_library">Failed to load native library</string>
+    <string name="failed_to_load_library_with_library_name">Failed to load native library.\nLibrary name: %s</string>
 </resources>
